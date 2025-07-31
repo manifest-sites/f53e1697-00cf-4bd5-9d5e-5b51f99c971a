@@ -1,0 +1,47 @@
+{
+  "name": "Squirrel",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "Name of the squirrel"
+    },
+    "species": {
+      "type": "string",
+      "description": "Species of squirrel (e.g., Gray Squirrel, Red Squirrel, Flying Squirrel)"
+    },
+    "location": {
+      "type": "string",
+      "description": "Where the squirrel was spotted"
+    },
+    "size": {
+      "type": "string",
+      "description": "Size category: small, medium, large"
+    },
+    "color": {
+      "type": "string",
+      "description": "Primary color of the squirrel"
+    },
+    "behavior": {
+      "type": "string",
+      "description": "Observed behavior or activity"
+    },
+    "dateSpotted": {
+      "type": "string",
+      "description": "Date when the squirrel was spotted"
+    },
+    "isFavorite": {
+      "type": "boolean",
+      "description": "Whether this squirrel is marked as a favorite"
+    },
+    "notes": {
+      "type": "string",
+      "description": "Additional notes about the squirrel"
+    }
+  },
+  "required": [
+    "name",
+    "species",
+    "location"
+  ]
+}
